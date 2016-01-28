@@ -45,8 +45,7 @@ module.exports = function (sails) {
         formatter: 'stylish',
         // decide which folders/patterns should be checked
         patterns: [
-          path.resolve(sails.config.appPath, 'api'),
-          path.resolve(sails.config.appPath, 'config')
+          path.resolve(sails.config.appPath, 'api')
         ]
       }
     },
